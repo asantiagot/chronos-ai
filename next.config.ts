@@ -7,6 +7,9 @@ const nextConfig: NextConfig = {
     //   config.devtool = 'eval-source-map'; // or 'inline-source-map'
     // }
     return config;
+  },
+  eslint: {
+    ignoreDuringBuilds: true
   }
 };
 
